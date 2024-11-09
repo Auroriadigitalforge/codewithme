@@ -1,0 +1,7 @@
+// Our first C program
+#include<stdio.h>            // This is header file 
+int main()                   // This is main function
+{                            // Main function and program body
+  printf("Hello everyone");  // for print our message 
+  return 0;                  //return type 0
+}                            // End of program
