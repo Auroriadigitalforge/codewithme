@@ -57,4 +57,4 @@ This is a learning repository. Feel free to fork and create your own variations!
 
 ---
 
-**Note**: The `SESSION_SWITCH_EXPLANATION.md` file provides detailed documentation about session management testing in the OpenWork application, which is an open-source alternative to Claude Cowork.
+**Note**: The `SESSION_SWITCH_EXPLANATION.md` file provides detailed documentation about session management testing in the OpenWork application, which is an open-source alternative to Claude Work.
