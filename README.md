@@ -33,4 +33,4 @@ An animated, single-page birthday greeting built with HTML, CSS, and a touch of 
 - Host the static files on any static server (GitHub Pages, Netlify, Vercel, S3/CloudFront, etc.). No backend is needed.
 
 ## Attribution
-- Original creator: [@Auroria_Digital_Forge](https://www.instagram.com/auroria_programming_hub/).
+- Original creator: [@Auroria_Digital_Forge](https://www.instagram.com/loop_and_logic/).
