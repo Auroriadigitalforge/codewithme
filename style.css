@@ -466,7 +466,7 @@ body {
         visibility: visible;
     }
 }
-.container .box-firework .firework #firework1{
+.container .box-firework .firework .firework-spark{
     position: absolute;
     width: 20px;
     z-index: -1;

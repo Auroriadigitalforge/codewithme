@@ -1,8 +1,11 @@
 // Our first C program
-#include <stdio.h>           // Standard I/O header
 
-int main()                   // Entry point of the program
+// Standard I/O header
+#include <stdio.h>
+
+// Entry point of the program
+int main()
 {
     printf("Hello, everyone!\n");  // Print message to console
-    return 0;                // Return 0 to indicate successful execution
+    return 0;                      // Return 0 to indicate successful execution
 }
