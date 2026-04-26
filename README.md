@@ -1,7 +1,6 @@
 # 🎉 CodeWithMe – Animated Birthday Greeting Page
 
-A delightful, animated single-page birthday greeting built using **HTML, CSS, and vanilla JavaScript**.
-Designed as a **shareable, personalized surprise**, the page plays a celebratory sequence featuring balloons, cake, fireworks, floating hearts, and a flip-open letter.
+A delightful, animated single-page birthday greeting built with **HTML, CSS, and vanilla JavaScript** — no frameworks, no build step, no backend.
 
 ---
 
@@ -12,7 +11,7 @@ Designed as a **shareable, personalized surprise**, the page plays a celebratory
 * ❤️ Interactive heart trail (mouse & touch supported)
 * 🎆 Fireworks, clouds, balloons, and gift visuals
 * 📱 Fully responsive (desktop + mobile browsers)
-* ⚡ No frameworks, no build step, no backend
+* ⚡ Pure static — zero dependencies
 
 ---
 
@@ -35,55 +34,66 @@ git clone https://github.com/Auroriadigitalforge/codewithme.git
 cd codewithme
 ```
 
-Open `index.html` directly in your browser.
-✔️ No installation or build process required.
+Open `index.html` directly in your browser — no installation required.
 
 ---
 
 ## 📁 Project Structure
 
-* `index.html` – Main page that controls layout and animations
-* `style.css` – Styling (some styles are inlined in `index.html`)
-* `assets/` – Images such as balloons, cake, fireworks, hearts, clouds, gift boxes
+```
+codewithme/
+├── index.html           # Main page — layout and HTML structure
+├── style.css            # All styles and animations
+├── script.js            # Interactive behaviour (heart trail, envelope)
+├── assets/              # Images used by the page
+│   ├── balloon.png
+│   ├── cake.png
+│   ├── cloud.png
+│   ├── cute.png
+│   ├── cute1.png
+│   ├── cute2.png
+│   ├── firework.png
+│   ├── firework1.png
+│   ├── flag.png
+│   ├── giftbox.png
+│   ├── paperCannons1.png
+│   └── texthappy.png
+└── examples/            # Code learning snippets
+    ├── hello_world.c    # First C program
+    └── recursion_example.py  # Recursion demo in Python
+```
 
 ---
 
 ## 🎨 Customization
 
-* **Text & Message**
-  Edit the birthday message inside:
-
-  ```html
-  .card2 h2
-  ```
-
-* **Images**
-  Replace images while keeping filenames, or update `<img src="">` paths.
-
-* **Colors & Fonts**
-  Modify gradients, colors, and font imports inside the `<style>` block or `style.css`.
+| What to change | Where to edit |
+|---|---|
+| Birthday message | `index.html` → `.card2 h2` |
+| Person's photo | `index.html` → `.card1 .userImg img` (replace `truongan.png`) |
+| Images | Swap files in `assets/` (keep filenames), or update `src` in `index.html` |
+| Colors & fonts | `style.css` — gradient variables and `@import` lines at the top |
+| Animation timing | `style.css` — `animation-delay` values |
 
 ---
 
 ## 💡 Usage Tips
 
 * Animation starts automatically on page load
-* Click the envelope to open the birthday letter
-* Heart trail follows mouse or touch input
-* DOM throttling is used to maintain performance
+* Click the envelope icon to open the birthday letter
+* Hover over the letter card to reveal the message
+* Heart trail follows your mouse or finger (touch-enabled)
 
 ---
 
 ## 🌍 Deployment
 
-This is a **pure static project**. You can deploy it easily using:
+This is a **pure static project**. Deploy with any static host:
 
-* GitHub Pages
-* Netlify
-* Vercel
+* [GitHub Pages](https://pages.github.com/)
+* [Netlify](https://netlify.com/)
+* [Vercel](https://vercel.com/)
 * AWS S3 + CloudFront
-
-No backend required.
 
 ---
 
@@ -96,4 +106,6 @@ MIT License — free to use, modify, and share.
 ## 👤 Author
 
 Created with ❤️ by **[@AuroriaDigitalForge](https://www.instagram.com/loop_and_logic)**
-If you like this project, consider giving it a ⭐ on GitHub!
+
+If you like this project, give it a ⭐ on GitHub!
+
